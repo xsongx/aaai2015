@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: retweet_aaai.aux
+The style file: aaai.bst
+Database file #1: subjectivity.bib
+You've used 35 entries,
+            2568 wiz_defined-function locations,
+            789 strings with 11713 characters,
+and the built_in function-call counts, 17685 in all, are:
+= -- 1940
+> -- 698
+< -- 22
++ -- 238
+- -- 238
+* -- 1335
+:= -- 2689
+add.period$ -- 197
+call.type$ -- 35
+change.case$ -- 257
+chr.to.int$ -- 35
+cite$ -- 35
+duplicate$ -- 726
+empty$ -- 1271
+format.name$ -- 299
+if$ -- 3831
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 37
+newline$ -- 234
+num.names$ -- 105
+pop$ -- 236
+preamble$ -- 1
+purify$ -- 294
+quote$ -- 0
+skip$ -- 607
+stack$ -- 0
+substring$ -- 1051
+swap$ -- 258
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 272
+warning$ -- 0
+while$ -- 150
+width$ -- 38
+write$ -- 533
