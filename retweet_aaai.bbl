@@ -14,8 +14,7 @@ Bian, J.; Yang, Y.; and Chua, T.-S.
 \newblock 2014.
 \newblock Predicting trending messages and diffusion participants in
   microblogging network.
-\newblock In {\em Proceedings of the 37th International ACM SIGIR Conference on
-  Research \&\#38; Development in Information Retrieval}, SIGIR '14,  537--546.
+\newblock In {\em Proc. of SIGIR '14}, SIGIR '14,  537--546.
 \newblock New York, NY, USA: ACM.
 
 \bibitem[\protect\citeauthoryear{Blei, Ng, and Jordan}{2003}]{blei2003latent}
@@ -29,9 +28,8 @@ Brody, S., and Diakopoulos, N.
 \newblock 2011.
 \newblock Cooooooooooooooollllllllllllll!!!!!!!!!!!!!!: using word lengthening
   to detect sentiment in microblogs.
-\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
-  Language Processing},  562--570.
-\newblock Association for Computational Linguistics.
+\newblock In {\em Proc. of EMNLP},  562--570.
+\newblock ACL.
 
 \bibitem[\protect\citeauthoryear{Chen \bgroup et al\mbox.\egroup
   }{2010}]{chen2010short}
@@ -48,9 +46,8 @@ Chen, J.; Nairn, R.; Nelson, L.; Bernstein, M.; and Chi, E.
 Cheng, J.; Adamic, L.; Dow, P.~A.; Kleinberg, J.~M.; and Leskovec, J.
 \newblock 2014.
 \newblock Can cascades be predicted?
-\newblock In {\em Proceedings of the 23rd international conference on World
-  wide web},  925--936.
-\newblock International World Wide Web Conferences Steering Committee.
+\newblock In {\em Proc. of the 23rd WWW},  925--936.
+\newblock WWW.
 
 \bibitem[\protect\citeauthoryear{Cialdini and
   Goldstein}{2004}]{cialdini2004social}
@@ -104,16 +101,8 @@ Guerra, P.~C.; Meira, Jr., W.; and Cardie, C.
 \newblock 2014.
 \newblock Sentiment analysis on evolving social streams: How self-report
   imbalances can help.
-\newblock In {\em Proceedings of the 7th ACM International Conference on Web
-  Search and Data Mining}, WSDM '14,  443--452.
+\newblock In {\em Proc. of the 7th WSDM}, WSDM '14,  443--452.
 \newblock New York, NY, USA: ACM.
-
-\bibitem[\protect\citeauthoryear{Guille \bgroup et al\mbox.\egroup
-  }{2013}]{guille2013information}
-Guille, A.; Hacid, H.; Favre, C.; and Zighed, D.~A.
-\newblock 2013.
-\newblock Information diffusion in online social networks: A survey.
-\newblock {\em ACM SIGMOD Record} 42(1):17--28.
 
 \bibitem[\protect\citeauthoryear{Hong and Davison}{2010}]{hong2010empirical}
 Hong, L., and Davison, B.~D.
@@ -129,7 +118,7 @@ Hu, X.; Tang, J.; Gao, H.; and Liu, H.
 \newblock 2013.
 \newblock Unsupervised sentiment analysis with emotional signals.
 \newblock In {\em Proc. of the 22nd WWW},  607--618.
-\newblock International World Wide Web Conferences Steering Committee.
+\newblock WWW.
 
 \bibitem[\protect\citeauthoryear{Hyman}{2000}]{Hyman2000}
 Hyman, J.
@@ -143,24 +132,22 @@ Jenders, M.; Kasneci, G.; and Naumann, F.
 \newblock 2013.
 \newblock Analyzing and predicting viral tweets.
 \newblock In {\em Proc. of the 22nd WWW},  657--664.
-\newblock International World Wide Web Conferences Steering Committee.
+\newblock WWW.
 
 \bibitem[\protect\citeauthoryear{Jiang \bgroup et al\mbox.\egroup
   }{2011}]{jiang2011target}
 Jiang, L.; Yu, M.; Zhou, M.; Liu, X.; and Zhao, T.
 \newblock 2011.
 \newblock Target-dependent twitter sentiment classification.
-\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
-  Computational Linguistics: Human Language Technologies-Volume 1},  151--160.
-\newblock Association for Computational Linguistics.
+\newblock In {\em Proc. of the 49th ACL},  151--160.
+\newblock ACL.
 
 \bibitem[\protect\citeauthoryear{Kempe, Kleinberg, and
   Tardos}{2003}]{kempe2003maximizing}
 Kempe, D.; Kleinberg, J.; and Tardos, {\'E}.
 \newblock 2003.
 \newblock Maximizing the spread of influence through a social network.
-\newblock In {\em Proceedings of the ninth ACM SIGKDD international conference
-  on Knowledge discovery and data mining},  137--146.
+\newblock In {\em Proc. of the ninth ACM SIGKDD},  137--146.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Lek and Poo}{2013}]{lek2013aspect}
@@ -168,15 +155,14 @@ Lek, H.~H., and Poo, D.~C.
 \newblock 2013.
 \newblock Aspect-based twitter sentiment classification.
 \newblock In {\em Tools with Artificial Intelligence (ICTAI), 2013 IEEE 25th
-  International Conference on},  366--373.
+  International Conference},  366--373.
 \newblock IEEE.
 
 \bibitem[\protect\citeauthoryear{Lin and He}{2009}]{lin2009joint}
 Lin, C., and He, Y.
 \newblock 2009.
 \newblock Joint sentiment/topic model for sentiment analysis.
-\newblock In {\em Proceedings of the 18th ACM conference on Information and
-  knowledge management},  375--384.
+\newblock In {\em Proc. of the 18th ACM CIKM},  375--384.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Liu}{2012}]{liu2012sentiment}
@@ -190,8 +176,8 @@ Liu, B.
 Luo, Z.; Osborne, M.; Tang, J.; and Wang, T.
 \newblock 2013.
 \newblock Who will retweet me?: finding retweeters in twitter.
-\newblock In {\em Proceedings of the 36th international ACM SIGIR conference on
-  Research and development in information retrieval}, SIGIR '13,  869--872.
+\newblock In {\em Proc. of the 36th international ACM SIGIR}, SIGIR '13,
+  869--872.
 \newblock New York, NY, USA: ACM.
 
 \bibitem[\protect\citeauthoryear{Macskassy and
@@ -206,8 +192,7 @@ Macskassy, S.~A., and Michelson, M.
 Mei, Q.; Ling, X.; Wondra, M.; Su, H.; and Zhai, C.
 \newblock 2007.
 \newblock Topic sentiment mixture: modeling facets and opinions in weblogs.
-\newblock In {\em Proceedings of the 16th international conference on World
-  Wide Web},  171--180.
+\newblock In {\em Proc. of the 16th WWW},  171--180.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Mohammad, Kiritchenko, and
@@ -216,7 +201,7 @@ Mohammad, S.~M.; Kiritchenko, S.; and Zhu, X.
 \newblock 2013.
 \newblock Nrc-canada: Building the state-of-the-art in sentiment analysis of
   tweets.
-\newblock In {\em Proceedings of the seventh international workshop on Semantic
+\newblock In {\em Proc. of the seventh international workshop on Semantic
   Evaluation Exercises (SemEval-2013)}.
 
 \bibitem[\protect\citeauthoryear{Moore and Haggard}{2008}]{moore2008awareness}
@@ -237,8 +222,8 @@ Pfitzner, R.; Garas, A.; and Schweitzer, F.
 {\v R}eh{\r u}{\v r}ek, R., and Sojka, P.
 \newblock 2010.
 \newblock {Software Framework for Topic Modelling with Large Corpora}.
-\newblock In {\em {Proceedings of the LREC 2010 Workshop on New Challenges for
-  NLP Frameworks}},  45--50.
+\newblock In {\em {Proc. of the LREC 2010 Workshop on New Challenges for NLP
+  Frameworks}},  45--50.
 \newblock Valletta, Malta: ELRA.
 
 \bibitem[\protect\citeauthoryear{Stein and
@@ -263,8 +248,7 @@ Suh, B.; Hong, L.; Pirolli, P.; and Chi, E.~H.
 Tan, C.; Lee, L.; Tang, J.; Jiang, L.; Zhou, M.; and Li, P.
 \newblock 2011.
 \newblock User-level sentiment analysis incorporating social networks.
-\newblock In {\em Proceedings of the 17th ACM SIGKDD international conference
-  on Knowledge discovery and data mining},  1397--1405.
+\newblock In {\em Proc. of the 17th ACM SIGKDD},  1397--1405.
 \newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Thelwall \bgroup et al\mbox.\egroup
