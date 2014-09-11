@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: retweet_aaai.aux
 The style file: aaai.bst
 Database file #1: subjectivity.bib
-You've used 34 entries,
+You've used 31 entries,
             2568 wiz_defined-function locations,
-            783 strings with 10747 characters,
-and the built_in function-call counts, 17242 in all, are:
-= -- 1892
-> -- 675
-< -- 22
-+ -- 230
-- -- 230
-* -- 1294
-:= -- 2615
-add.period$ -- 192
-call.type$ -- 34
-change.case$ -- 249
-chr.to.int$ -- 34
-cite$ -- 34
-duplicate$ -- 712
-empty$ -- 1244
-format.name$ -- 290
-if$ -- 3744
+            765 strings with 10189 characters,
+and the built_in function-call counts, 15988 in all, are:
+= -- 1759
+> -- 626
+< -- 21
++ -- 214
+- -- 214
+* -- 1199
+:= -- 2417
+add.period$ -- 176
+call.type$ -- 31
+change.case$ -- 230
+chr.to.int$ -- 31
+cite$ -- 31
+duplicate$ -- 659
+empty$ -- 1151
+format.name$ -- 269
+if$ -- 3477
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 36
-newline$ -- 228
-num.names$ -- 102
-pop$ -- 231
+missing$ -- 32
+newline$ -- 209
+num.names$ -- 93
+pop$ -- 212
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 262
 quote$ -- 0
-skip$ -- 596
+skip$ -- 553
 stack$ -- 0
-substring$ -- 1027
-swap$ -- 256
-text.length$ -- 22
+substring$ -- 968
+swap$ -- 241
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 264
+type$ -- 244
 warning$ -- 0
-while$ -- 146
-width$ -- 37
-write$ -- 519
+while$ -- 136
+width$ -- 34
+write$ -- 476

@@ -23,14 +23,6 @@ Blei, D.~M.; Ng, A.~Y.; and Jordan, M.~I.
 \newblock Latent dirichlet allocation.
 \newblock {\em the Journal of machine Learning research} 3:993--1022.
 
-\bibitem[\protect\citeauthoryear{Brody and Diakopoulos}{2011}]{brody2011col}
-Brody, S., and Diakopoulos, N.
-\newblock 2011.
-\newblock Cooooooooooooooollllllllllllll!!!!!!!!!!!!!!: using word lengthening
-  to detect sentiment in microblogs.
-\newblock In {\em Proc. of EMNLP},  562--570.
-\newblock ACL.
-
 \bibitem[\protect\citeauthoryear{Chen \bgroup et al\mbox.\egroup
   }{2010}]{chen2010short}
 Chen, J.; Nairn, R.; Nelson, L.; Bernstein, M.; and Chi, E.
@@ -64,14 +56,6 @@ Comarela, G.; Crovella, M.; Almeida, V.; and Benevenuto, F.
 \newblock In {\em Proc. of the 23rd ACM conference on Hypertext and social
   media},  123--132.
 \newblock ACM.
-
-\bibitem[\protect\citeauthoryear{Engbert \bgroup et al\mbox.\egroup
-  }{2007}]{engbert2007agency}
-Engbert, K.; Wohlschl{\"a}ger, A.; Thomas, R.; and Haggard, P.
-\newblock 2007.
-\newblock Agency, subjective time, and other minds.
-\newblock {\em Journal of Experimental Psychology: Human Perception and
-  Performance} 33(6):1261.
 
 \bibitem[\protect\citeauthoryear{Feng and Wang}{2013}]{feng2013retweet}
 Feng, W., and Wang, J.
@@ -225,13 +209,6 @@ Pfitzner, R.; Garas, A.; and Schweitzer, F.
 \newblock In {\em {Proc. of the LREC 2010 Workshop on New Challenges for NLP
   Frameworks}},  45--50.
 \newblock Valletta, Malta: ELRA.
-
-\bibitem[\protect\citeauthoryear{Stein and
-  Wright}{2005}]{stein2005subjectivity}
-Stein, D., and Wright, S.
-\newblock 2005.
-\newblock {\em Subjectivity and Subjectivisation: Linguistic Perspectives}.
-\newblock Cambridge University Press.
 
 \bibitem[\protect\citeauthoryear{Suh \bgroup et al\mbox.\egroup
   }{2010}]{suh2010want}
