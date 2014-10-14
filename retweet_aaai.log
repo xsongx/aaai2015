@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.4)  11 SEP 2014 17:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.7)  15 SEP 2014 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **retweet_aaai.tex
 (./retweet_aaai.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 12 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -341,13 +341,13 @@ Underfull \hbox (badness 1668) in paragraph at lines 372--374
 
 (./retweet_aaai.bbl [6 <./fig5.pdf>]) [7] (./retweet_aaai.aux) ) 
 Here is how much of TeX's memory you used:
- 2743 strings out of 494724
- 36650 string characters out of 6174698
- 107033 words of memory out of 5000000
- 6002 multiletter control sequences out of 15000+600000
+ 2743 strings out of 493304
+ 36650 string characters out of 6139872
+ 110755 words of memory out of 5000000
+ 6113 multiletter control sequences out of 15000+600000
  29772 words of font info for 69 fonts, out of 8000000 for 9000
- 102 hyphenation exceptions out of 8191
- 38i,15n,26p,1511b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 957 hyphenation exceptions out of 8191
+ 38i,15n,26p,1529b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/tex
 live/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -364,7 +364,7 @@ onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on retweet_aaai.pdf (7 pages, 933801 bytes).
+Output written on retweet_aaai.pdf (7 pages, 933856 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream
