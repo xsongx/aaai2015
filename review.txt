@@ -1,0 +1,174 @@
+
+
+NOTICE: Due to the impossibility of opening the review response period
+at 5pm PDT, October 22, we are extending the period until October 26,
+7pm PDT. The new period overlaps the weekend but it has been extended
+significantly from 2 days to more than 3 days.
+
+
+NOTICE: In order to start discussion as soon as possible, we ask you
+to enter your response as soon as it is finished instead of waiting
+until the deadline. Likewise, if you don't want to enter a response,
+we ask you to enter an "empty response". In this way, we can kick
+off discussions as papers become "ready".
+
+
+
+Dear Songxian,
+
+Thank you for your submission to AAAI-15. The AAAI-15 review response
+period is NOW through 7pm PDT on Sunday, October 26.
+
+During this time, you will have access to the current state of your
+reviews and have the opportunity to submit a response of up to 800
+words via Easychair. Please keep in mind the following during this
+process:
+
+* The response is intended as an opportunity to correct any factual
+errors in the reviews and to answer any questions posed in the
+reviews. Please do not provide new research results or reformulate
+the presentation. Please also try to refrain from rebutting
+subjective opinions.  Try to be as concise and to the point as
+possible.
+
+* The review response period is an opportunity to react to the
+reviews, but not a requirement to do so. Thus, you do not need not
+respond if you feel that the reviews are accurate and do not pose
+any questions. However, please read the second notice above.
+
+* The reviews are as submitted by the PC members, without any
+coordination among them. Thus, there may be inconsistencies among
+the reviews. While we have tried hard to get 3 reviews per
+submission by this point, it is inevitable that some reviews are
+missing given that AAAI-15 received about 2,000 submissions.
+However, we can confirm that every paper has at least 2 reviews,
+the vast majority (> 98%) have 3 reviews, and some papers have 4
+or more reviews.
+
+* Where necessary, we are working on getting additional reviews in and,
+thus, an additional review could show up during the author response
+period. After the author response period, the reviews may be updated
+to take into account the discussions among the reviewers and
+additional reviews may be solicited.
+
+* The program committee will read your response carefully and take
+this information into account during the discussion, but they may
+not directly respond to your response in their reviews.
+
+* Your response will be seen by all PC members who have access to the
+discussion of your paper, so please try to be polite and
+constructive. If_you_abuse_the_word_limit, your response might get
+deleted.
+
+* No edits or deletion of comments are possible after the response has
+been submitted on EasyChair. Only the corresponding author(s) are
+able to enter a response.
+
+The reviews on your submission are attached to this letter. To submit
+your response you should log on the EasyChair Web site
+(https://www.easychair.org/conferences/?conf=aaai15) and select your
+submission. The author response period ends promptly at 7pm PDT on
+Sunday, October 26, and no author feedback will be allowed after that
+time.
+
+Thank you,
+
+Blai Bonet and Sven Koenig
+AAAI-15 Program Cochairs
+
+
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 1143
+TITLE: From Topics to Opinions: Modelling Subjectivity for Diffusion Behavior Analysis
+AUTHORS: Songxian Xie, Jintao Tang, Ting Wang and Ruili Wang
+
+Significance of the Contribution: 3 (---)
+Soundness and Positioning with Respect to Related Work: 2 (----)
+Depth of Theoretical and/or Experimental Analysis (as appropriate): 2 (----)
+Quality of Presentation: 7 (++)
+SUMMARY RATING: -4 (----)
+
+----------- COMMENTS FOR THE AUTHORS -----------
+This paper defines a general subjectivity model by combining both topics and opinions articulated in User-Generated Content. In order to understand the information diffusion behavior, this paper also proposes a new subjectivity similarity measurement between two subjectivity models. This proposed subjectivity model by considering the subjectivity similarities between attractiveness, sociality and popularity aspects, is utilized to predict the retweeting behavior on Twitter. 
+  
+Firstly, this paper didn't consider the existing important state-of-the-art literature into account. For example, the papers titled: "Predicting the Speed, Scale, and Range of Information Diffusion in Twitter" by Jiang Yang et al; "Tweet, Tweet, Retweet: Conversational Aspects of Retweeting on Twitter" by Danah Boyd et al; discuss the similar kind of features as proposed in this paper. It was not clear how this work is different from the many of existing works except for a different terminology like "subjectivity". 
+
+Secondly, there is no proof why the topic space should be 100 and sentiment range should be 0-8. Certainly, identifying topics and then translating them to identify the diffusion behavior might be interesting but this paper should certainly provide proofs for the different thresholds it has considered. 
+  
+Finally, at some point of reading this paper, it was very confusing whether the main goal is to predict the retweeters (lets say this as 'a') or predicting whether a tweet gets retweeted (lets say this as 'b') because, the experimental section has considered 'a'. This paper requires a thorough analysis by considering the different concerns mentioned above.
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 1143
+TITLE: From Topics to Opinions: Modelling Subjectivity for Diffusion Behavior Analysis
+AUTHORS: Songxian Xie, Jintao Tang, Ting Wang and Ruili Wang
+
+Significance of the Contribution: 8 (+++)
+Soundness and Positioning with Respect to Related Work: 7 (++)
+Depth of Theoretical and/or Experimental Analysis (as appropriate): 2 (----)
+Quality of Presentation: 2 (----)
+SUMMARY RATING: -3 (---)
+
+----------- COMMENTS FOR THE AUTHORS -----------
+The goal of this paper is to incorporate user "subjectivity" into a model of information diffusion behavior. There are several questions I have, due to the model being quite unclear and notation that is used without being properly introduced or defined. 
+
+
+For instance, is O_{k}^{i} the opinion distribution of for a particular user? 
+How do you calculate \theta_{u}(k)?
+The function "Sim" is overloaded, taking as arguments subjectivity models, tweets, users, and opinions. In addition, some times a weight is applied to a Sim function (for instance, in the case of Sim(u_{a}, t)). 
+
+
+The term "sequential space" is confusing -- do you mean ordinal or interval? 
+
+Eq. 4: Do you mean v_{i}^{u} and v_{i}^{v}? 
+
+Graph axes aren't labelled, making for confusion, Table 1, is the x axis topic or sentiment? 
+
+The biggest concern I have is with the aspect of time. A critical part of this model is to understand the subjective similarity of the users with the tweets. They do this by finding all tweets of a subject and using LDA to identify the topics that the person is interested in.
+
+However, when evaluating the predictive powers of their algorithm, they should consider the topic model of the user generated by the tweets BEFORE the potential to retweet. One of the underlying difficult problems is understanding how "hidden" variables can affect retweeting behavior. It could be that a user was always interested in a particular topic, but only expressed this interest after they first retweeted. It does not seem like the UCG was partitioned by time for a user. 
+
+Also, for calculating Sim(u_a, t) -- do you consider the number of followers of f who have retweeted t BEFORE f saw t?
+
+Why do you take the log of F and max when calculating the leadership factor? 
+
+Another question: how did you choose the four factors? What motivated you to choose those specific weights? Is there existing evidence that those are the most useful factors? 
+
+The "expert factor" seems to just be a popularity factor -- it doesn't measure expertise in any real sense. 
+
+Several editing mistakes:
+
+attentions -> attention
+subjecctivity -> subjectivity
+Interation -> Interaction
+bith -> with
+Missing section reference in section "Performance Evaluation"
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 1143
+TITLE: From Topics to Opinions: Modelling Subjectivity for Diffusion Behavior Analysis
+AUTHORS: Songxian Xie, Jintao Tang, Ting Wang and Ruili Wang
+
+Significance of the Contribution: 7 (++)
+Soundness and Positioning with Respect to Related Work: 7 (++)
+Depth of Theoretical and/or Experimental Analysis (as appropriate): 4 (--)
+Quality of Presentation: 4 (--)
+SUMMARY RATING: 2 (++)
+
+----------- COMMENTS FOR THE AUTHORS -----------
+The authors focus on a subtle issue, how the personal preferences of users affect how they participate in information diffusion networks.  For example (as the authors explain), if a user likes a particular movie, then they are more likely to retweet messages that are positive about that movie.
+
+The experimental approach described in paper raises some concerns. In practice, a retweet predictor would have to be constructed on data gathered prior to the time of the potential retweet (and perhaps prior to the generation of the original tweet).  However, the authors appear to evaluate their retweet predictor from data gathered both before and after the time of the original tweet.  This leads to potential “leakage” of information (see Shachar Kaufman, Saharon Rosset, Claudia Perlich, and Ori Stitelman. 2012. Leakage in data mining: Formulation, detection, and avoidance. ACM Trans. Knowl. Discov. Data 6, 4, Article 15.).
+
+The authors could claim that they are merely investigating the manner in which retweet behavior can be explained, rather than attempting to construct a practical retweet predictor.  If so, the paper should focus on what information can be gained from such an analysis, and it should explain the utility that such information has in other contexts.  Currently, the paper appears to focus almost exclusively on constructing an accurate retweet predictor.
+
+The paper would be greatly improved if the authors would investigate more deeply the reasons why specific models perform better than others.  For example, the authors state that “We assign a popularity weight to Sim(u_a, t), which is the proportion of user f ’s followees who have retweeted the tweet t.”  The accuracy of a retweet predictor is greatly increased when this information is known (basically, it is an out-of-sample indicator of the tweet-specific likelihood of retweet).  Unless this information is available to all retweet predictors in Table 4, then the performance of predictors that use this popularity weight may be unfairly increased over other predictors merely because of this information.
+
+Also, the authors state that "To avoid the bias introduced by dataset imbalance, an evaluation dataset is constructed by taking 5,214 retweeters as positive instances, and randomly sampling 5,214 non-retweeters as negative instances."  Using the natural distribution would massively decrease raw accuracy, and this would help readers understand the substantive utility of such a retweet predictor.  This is not bias, this is clear communication with readers.  Without this sort of evaluation, readers may believe that the authors' model can predict who will retweet roughly 75% of the time.  Using a training set that is balanced between positive and negative instances is a perfectly reasonable implementation choice (and one recommended in the literature on dealing with highly skewed training sets), but at least one evaluation measure should be estimated using the natural distribution.
+
+The authors refer to the preferences of users as “the subjectivity of users” which may confuse some readers.  The term “subjectivity” is usually used to refer to the bias of a user away from some more accurate estimate.  In contrast, the authors are attempting to capture the personal preferences or tastes of a user, that often merely exist, rather than being right or wrong.  The paper would be improved by revising the terms used in the paper to better aid reader understanding.  Terms such as “preferences” or “tastes” might be better.  If the authors continue using “subjectivity”, they should explain how they are using the term.
+
+The writing in the paper has occassional lapses in English usage. For example: “Information diffusion plays an important role for both researches and applications…” and “In psychological researches, it has been identified that...”  The paper would be improved by a final edit by a native speaker of English.
+
+------------------------------------------------------
+
