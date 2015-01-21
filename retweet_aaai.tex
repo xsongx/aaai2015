@@ -21,7 +21,7 @@
  \begin{document}
 % The file aaai.sty is the style file for AAAI Press 
 % proceedings, working notes, and technical reports.
-%
+%Personalized Retweeting behavior Analysis By Modeling Subjectivity of Users
 \title{From Topics to Opinions:: \\Modeling Subjectivity for Diffusion Behavior Analysis}
 %\author{Songxian Xie, Jintao Tang \and Ting Wang\\
 %School of Computer, National University of Defense Technology, Changsha, P.R. China\\
@@ -42,6 +42,11 @@ In order to evaluate the impact of subjectivity on information diffusion behavio
 
 \section{Introduction}
 \label{introduction}
+
+Tweets can be shared along the followee-follower links so that more users are informed. The sharing action is referred as retweet. Retweet behavior is the key part behind the information spreading in Twitter.
+
+
+
 \noindent Information diffusion plays an important role in scenes such as marketing and election by triggering and cascading a large number of users. It has drawn considerable attentions from researchers, especially in the area of online social networks. They have built standard models for the general information diffusion, which are useful for simulating the information flow\cite{goldenberg2001talk,kempe2003maximizing}, or detecting the outbreak of information cascades\cite{cheng2014can}. However, they ignore the intention of users in the process of information diffusion. As information consumer and producer in the web 2.0 era, each user can declare his interests, express opinions, choose information to read and spread on various social media platforms. Whether a message will be spread across the network depends on the ``word of mouth'' effect, which can elicit the diffusion behavior of users. With the development of Natural Language Processing and data mining techniques, the intention of users can be analyzed by modeling users with user-generated data. In this work, we target at an interesting problem: the mechanism of ``word of mouth'' effect, i.e. given a new message from a specific user, we intend to predict who will participate in the future diffusion process after receiving this message. 
 As a special scene, we illustrate the problem in a heterogeneous network of Twitter in Figure~\ref{fig00}, in which Tony and his friends have tweeted on two topics: cellphone ``Iphone'' and movie ``Frozen''. Now Tony posts a new tweet about ``Frozen'', we want to find out who will disseminate it among all his friends.
 \begin{figure}[htb]
